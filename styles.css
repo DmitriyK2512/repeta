@@ -1,0 +1,84 @@
+body{
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+:root{ 
+    /* палитра цвета*/
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000000;
+    --accent-color: #18A0FB;
+    --primary-white-color: #ffffff;
+    --secondary-background-color: #F5F5F5;
+}
+/* ................................. */
+.section{
+    color: var(--title-text-color);
+}
+.logo{
+    color: var(--title-text-color);
+}
+.logo:hover{
+    color: var(--accent-color);
+}
+.list{
+    list-style: none;
+}
+.site-nav .link{
+    color:var(--accent-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--title-text-color);
+}
+.feature-list .title{
+    color: var(--title-text-color);
+}
+.site-nav .link.current{
+    color: var(--title-text-color);
+}
+.work-list .title{
+    color: var(--title-text-color);
+}
+
+/* кнопка */
+/* делаем утилитный класс  */
+.button{
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+}
+.button.primary{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);   
+}
+.button.secondary{
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+}
+
+
+
+
+/* цвет логотипа,
+ заголовков,
+ ссылок
+color: #000000;
+ */
+ /* цвет параграфа,
+ копирайта
+ rgba(0, 0, 0, 0.8);
+  */
+
+  /* цвет навигации,
+   текст кнопки,
+   кнопка
+  color: #18A0FB;
+   */
+  /* кнопка
+  color: #FFFFFF;
+   */
+
+
+/* вторичный цвет */
+/* background: #F5F5F5; */
